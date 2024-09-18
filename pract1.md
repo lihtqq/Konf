@@ -26,7 +26,9 @@ grep '.*' /etc/passwd | cut -d: -f1 | sort
 139 hip
 138 manet
 ```
+```
 awk '{print $2, $1}' /etc/protocols | sort -nr | head -n 5
+```
 
 ![image](https://github.com/user-attachments/assets/420132ac-3a32-404e-aaf3-f9c409180b80)
 
@@ -39,6 +41,9 @@ awk '{print $2, $1}' /etc/protocols | sort -nr | head -n 5
 +-----------------------+
 | Hello from RTU MIREA! |
 +-----------------------+
+```
+```
+
 ```
 
 
