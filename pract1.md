@@ -25,6 +25,9 @@ grep '.*' /etc/passwd | cut -d: -f1 | sort
 139 hip
 138 manet
 ```
+awk '{print $2, $1}' /etc/protocols | sort -nr | head -n 5
+
+![image](https://github.com/user-attachments/assets/420132ac-3a32-404e-aaf3-f9c409180b80)
 
 ## Задача 3
 
@@ -36,6 +39,8 @@ grep '.*' /etc/passwd | cut -d: -f1 | sort
 | Hello from RTU MIREA! |
 +-----------------------+
 ```
+
+
 
 Перед отправкой решения проверьте его в ShellCheck на предупреждения.
 
