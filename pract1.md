@@ -7,8 +7,9 @@
 ## Задача 1
 
 Вывести отсортированный в алфавитном порядке список имен пользователей в файле passwd (вам понадобится grep).
-
+```
 grep '.*' /etc/passwd | cut -d: -f1 | sort
+```
 
 ![image](https://github.com/user-attachments/assets/5933ccb3-76fd-4f50-ad7b-4107d26a1c1b)
 
