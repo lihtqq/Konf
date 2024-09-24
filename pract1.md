@@ -16,10 +16,11 @@ grep '.*' /etc/passwd | cut -d: -f1 | sort
 ## Задача 2
 
 ```
-awk '{print $2, $1}' /etc/protocols | sort -nr | head -n 5
+cat /etc/protocols|sort -k 2,2nr|head -n 5|awk '{print $2, $1}'
 ```
 
-![image](https://github.com/user-attachments/assets/420132ac-3a32-404e-aaf3-f9c409180b80)
+![изображение](https://github.com/user-attachments/assets/b125f881-a005-44ae-85fa-ebab6b7bb3db)
+
 
 ## Задача 3
 
